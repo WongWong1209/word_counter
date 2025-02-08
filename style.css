@@ -1,0 +1,13 @@
+#text-length {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+#text {
+  width: 70rem;
+  height: 40rem;
+  font-size: 1.1rem;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
