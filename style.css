@@ -1,13 +1,41 @@
-#text-length {
-  font-size: 1.2rem;
-  font-weight: 900;
+* {
+  margin: 0;
+  padding: 0;
 }
+
 #text {
-  width: 70rem;
+  width: 60rem;
   height: 40rem;
   font-size: 1.1rem;
 }
 
+.texts {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+.right_section {
+  font-size: 1.2rem;
+}
+
+#minimal-word {
+  font-size: 1.2rem;
+}
+
+.texts p {
+  border: 1px solid black;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  display: flex;
+  flex-direction: row;
+  margin: 3rem;
+  gap: 1rem;
 }

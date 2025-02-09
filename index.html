@@ -7,8 +7,17 @@
     <title>Word Counter</title>
 </head>
 <body>
-    <p id="text-length">Word Count: </p>
-    <textarea id="text" name="text"></textarea>
+    <div>
+        <div class="texts">
+            <p id="text-length">Word Count: 0</p>
+            <p id="text-remain-word">Words remaining: 0</p>
+        </div>
+        <textarea id="text" name="text"></textarea>
+    </div>
+    <div class="right_section">
+        <label for="minimal-word">Target Word Count: </label>
+        <input type="text" id="minimal-word" value="150">
+    </div>
     <script src="./app.js"></script>
 </body>
 </html>
